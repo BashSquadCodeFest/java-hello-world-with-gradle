@@ -5,7 +5,7 @@
 ### What you’ll need
 + A favorite text editor or IDE
 + JDK 8 or later
-+ Install Gradle
++ Install Gradle 3.5
 
 ### Install Gradle
 + **On Unix**
