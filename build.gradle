@@ -2,6 +2,9 @@ buildscript{
     repositories {
         mavenCentral()
     }
+    dependencies{
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
+    }
 }
 
 /*
@@ -14,10 +17,6 @@ buildscript{
  */
 
 /*
-
-plugins {
-  id "org.sonarqube" version "3.3"
-}
 
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
@@ -42,6 +41,7 @@ dependencies {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
+apply plugin: 'org.sonarqube'
 
 mainClassName = 'hello.HelloWorld'
 
