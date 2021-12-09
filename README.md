@@ -17,7 +17,7 @@ $ sudo apt-get install gradle
 ```
 
 
-+ **On Mac OS X**
++ **On Mac OS X **
     + `brew install gradle`
 
     + [Install Homebrew](http://brew.sh/).
