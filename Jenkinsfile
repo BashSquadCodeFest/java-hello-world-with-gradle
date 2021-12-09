@@ -21,5 +21,9 @@ pipeline {
                  }
              }
          }
+         stage('SonarQube analysis') {
+               withSonarQubeEnv() {
+               sh './gradlew sonarqube'
+          }
      }
  }
